@@ -1,0 +1,26 @@
+#include <stdio.h> 
+ 
+ struct Person 
+ { 
+ const char * name ; 
+ int age ; 
+ 
+ void myMethod ( ) 
+ { 
+ printf ( "Called my method!" ) ; 
+ } 
+ } ; 
+ 
+ // This is a test file 
+ int main ( int argc , char * * argv ) 
+ { 
+ float pi = 3.1425 ; 
+ if ( pi == 4 ) 
+ { 
+ printf ( "Yes" ) ; 
+ } 
+ 
+ printf ( "Hello %s" , "World" ) ; 
+ return 0 ; 
+ } 
+ 
